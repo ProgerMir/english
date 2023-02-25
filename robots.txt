@@ -1,0 +1,13 @@
+User-agent: *
+
+Disallow: /images/
+Disallow: /includes/
+Disallow: /css/
+
+User-agent: Yandex
+
+Disallow: /images/
+Disallow: /includes/
+Disallow: /css/
+
+Host: https://improveenglish.ru/

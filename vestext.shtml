@@ -1,0 +1,99 @@
+                   <!-- Header -->
+ <!--#include virtual="includes/header.html" -->
+    <title>Статья</title>
+
+</head>
+
+<body>
+
+   <!-- Menu -->
+ <!--#include virtual="includes/menu.html" -->
+
+
+            <!-- Stat -->
+
+<section class="vestext">
+    <div class="container">
+        <div class="vestext__content">
+        <h3 class="vestext__subtitle">Заголовок статьи</h3>
+        <img class="vestext__img" src="images/image__stat.jpg" alt="">
+        <p class="vestext__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, omnis unde! Exercitationem assumenda voluptas minima eius ad reiciendis doloribus beatae cupiditate itaque voluptatem, quidem neque aperiam, odit repellat, sequi fuga?</p>
+        
+        </div>  
+            
+        <div class="vestext_other">
+            <h3 class="vestext__other-subtitle">Похожие статьи</h3>
+            
+            <div class="prev">
+            
+                <!-- Statya -->
+                <div class="prev__col"> 
+                     <div class="statya">
+                        <img class="statya__image" src="images/image.jpg" alt="">
+    
+                        <div class="statya__content">
+                            <div class="statya__cat">Rules
+                                <time class="statya__time" datetime="2022-09-03 19:52">2022</time>
+                            </div>
+                            <div class="statya__title">
+                                Title of article
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                </div><!-- Statya -->
+                
+                <!-- Statya -->
+                <div class="prev__col"> 
+                    <div class="statya">
+                       <img class="statya__image" src="images/image.jpg" alt="">
+    
+                       <div class="statya__content">
+                           <div class="statya__cat">Rules
+                               <time class="statya__time" datetime="2022-09-03 19:52">2022</time>
+                           </div>
+                           <div class="statya__title">
+                               Title of article
+                           </div>
+                       </div>
+    
+                   </div>
+    
+               </div><!-- Statya -->
+               <!-- Statya -->
+               <div class="prev__col"> 
+                <div class="statya">
+                   <img class="statya__image" src="images/image.jpg" alt="">
+    
+                   <div class="statya__content">
+                       <div class="statya__cat">Rules
+                           <time class="statya__time" datetime="2022-09-03 19:52">2022</time>
+                       </div>
+                       <div class="statya__title">
+                           Title of article
+                       </div>
+                   </div>
+    
+               </div>
+    
+           </div><!-- /Statya -->
+          </div><!-- /Prev --> 
+                
+
+        </div>
+
+    </div>
+</section>
+<!-- /INTRO -->
+
+
+
+    
+ <!-- Footer -->
+<!-- Footer -->
+ <!--#include virtual="includes/footer.html" -->
+
+</body>
+
+</html>

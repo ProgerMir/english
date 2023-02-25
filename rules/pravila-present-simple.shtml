@@ -1,0 +1,67 @@
+                   <!-- Header -->
+ <!--#include virtual="../includes/header.html" -->
+    <title>Present Simple - правила времени и примеры предложений</title>
+
+</head>
+
+<body>
+
+   <!-- Menu -->
+ <!--#include virtual="../includes/menu.html" -->
+
+
+            <!-- Stat -->
+
+<section class="vestext">
+    <div class="container">
+        <div class="vestext__content">
+        <h3 class="vestext__subtitle">Правила Present Simple</h3>
+        <img class="vestext__img" src="../images/pravila-present-simple.gif" alt="">
+        <p class="vestext__text">
+            
+            <p>Время Present Simple означает «настоящее простое» и применяется в ситуациях, которые происходят всегда, например, вы всегда дышите, спите по ночам, ходите в магазин. По-английски это будет выглядеть так: «I go to the shop every day - я хожу в этот магазин каждый день». </p>
+
+<p>Если в предложении третье лицо единственного числа (he, she, it), то к глаголу добавляется окончание -es:</p>
+
+<p>She goes shopping almost every day – Она ходит по магазинам почти каждый день.</p>
+
+<p>Для третьего лица множественного числа данное окончание не добавляется: They go here every day – Они ходят тут каждый день.</p>
+
+<p>Формула — V + -s(-es).</p>
+
+<p>Отрицательные предложения</p>
+
+<p>В отрицательных предложениях добавляется вспомогательные глаголы do/does с частицей not: They do not walk here every day – Они не гуляют тут каждый день.</p>
+
+<p>Для местоимений «он, она» к Do добавляется окончание -es: She does not walk here every day – Она не гуляет тут каждый день.</p>
+
+<p>Формула — do not (don’t)/does not (doesn’t) + V. Обратите внимание, что у третьего лица единственного числа окончание s или es не добавляется: She doesn’t go to the museum.</p>
+
+<p>Вопросительные предложения</p>
+
+<p>Вопрос в Present Simple можно задать так: Do you speak English? Does she speak English? </p>
+
+<p>То есть формула такая — Do/Does + Verb</p>
+
+
+            
+        </p>
+        
+        </div>  
+            
+              
+
+    </div>
+</section>
+<!-- /INTRO -->
+
+
+
+    
+ <!-- Footer -->
+<!-- Footer -->
+ <!--#include virtual="../includes/footer.html" -->
+
+</body>
+
+</html>

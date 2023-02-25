@@ -1,0 +1,192 @@
+                   <!-- Header -->
+ <!--#include virtual="../includes/header.html" -->
+    <title>Тестирование по времени Present Continuous - тесты с ответами</title>
+
+</head>
+
+<body>
+
+   <!-- Menu -->
+ <!--#include virtual="../includes/menu.html" -->
+
+
+            <!-- Stat -->
+
+<section class="vestext">
+    <div class="container">
+        <div class="vestext__content">
+        <h3 class="vestext__subtitle">Пройдите тест по времени Present Continuous</h3>
+        <img class="vestext__img" src="../images/test-pres-cont.gif" alt="">
+        <p class="vestext__text">
+            
+           <script type="text/javascript" language="JavaScript">// <![CDATA[
+ var res="1111212111"; 
+function check_me()
+{
+    var count=0;
+    with(document.test) {
+if (!Q1[0].checked&&!Q1[1].checked)  
+{count+=1};  
+if (!Q2[0].checked&&!Q2[1].checked)  
+{count+=1};  
+if (!Q3[0].checked&&!Q3[1].checked)  
+{count+=1};  
+if (!Q4[0].checked&&!Q4[1].checked)  
+{count+=1};  
+if (!Q5[0].checked&&!Q5[1].checked)  
+{count+=1};  
+if (!Q6[0].checked&&!Q6[1].checked)  
+{count+=1};  
+if (!Q7[0].checked&&!Q7[1].checked)  
+{count+=1};  
+if (!Q8[0].checked&&!Q8[1].checked)  
+{count+=1};  
+if (!Q9[0].checked&&!Q9[1].checked)  
+{count+=1};  
+if (!Q10[0].checked&&!Q10[1].checked)  
+{count+=1};  
+if (count>0) alert("Вы выполнили не все задания. Проверьте себя!")    
+        else answer();
+    }
+} 
+ 
+function control(k, f1,f2,f3,f4,f5,f6,f7,f8,f9,f10) {
+if (k==1&&f1.checked) return true;
+if (k==2&&f2.checked) return true;
+if (k==3&&f3.checked) return true;
+if (k==4&&f4.checked) return true;
+if (k==5&&f5.checked) return true;
+if (k==6&&f6.checked) return true;
+if (k==7&&f7.checked) return true;
+if (k==8&&f8.checked) return true;
+if (k==9&&f9.checked) return true;
+if (k==10&&f10.checked) return true;
+return false;
+}
+
+function answer() {
+answ="";
+     with(document)    {
+    answ+=control(res.charAt(0) ,test.Q1[0],test.Q1[1])?"1":"0";
+answ+=control(res.charAt(1) ,test.Q2[0],test.Q2[1])?"1":"0";
+answ+=control(res.charAt(2) ,test.Q3[0],test.Q3[1])?"1":"0";
+answ+=control(res.charAt(3) ,test.Q4[0],test.Q4[1])?"1":"0";
+answ+=control(res.charAt(4) ,test.Q5[0],test.Q5[1])?"1":"0";
+answ+=control(res.charAt(5) ,test.Q6[0],test.Q6[1])?"1":"0";
+answ+=control(res.charAt(6) ,test.Q7[0],test.Q7[1])?"1":"0";
+answ+=control(res.charAt(7) ,test.Q8[0],test.Q8[1])?"1":"0";
+answ+=control(res.charAt(8) ,test.Q9[0],test.Q9[1])?"1":"0";
+answ+=control(res.charAt(9) ,test.Q10[0],test.Q10[1])?"1":"0";
+
+showResult();
+    }
+}
+ 
+function showResult()   {
+    var nok=0;
+    var i,s;
+ 
+for (i=0; i<answ.length;i++) {nok+=answ.charAt(i)=="1"?1:0;}
+if(nok==10) s="ОТЛИЧНО";
+if(nok<10) s="ХОРОШО";
+if(nok<7.5) s="УДОВЛЕТВОРИТЕЛЬНО";
+if (nok<5) s="НЕУДОВЛЕТВОРИТЕЛЬНО";
+    document.test.s1.
+    value="Количество правильных ответов "+nok+". Ваша оценка "+s+". Посмотрите на окно рядом с номером вопроса. Если ответ правильный, там (+). Если ответ ошибочен, там (-).";
+ 
+with(document.test)
+    {
+    if (answ.charAt(0)=="1") {T1.value=" + "} else {T1.value=" - "};
+   if (answ.charAt(1)=="1") {T2.value=" + "} else {T2.value=" - "};
+   if (answ.charAt(2)=="1") {T3.value=" + "} else {T3.value=" - "};
+   if (answ.charAt(3)=="1") {T4.value=" + "} else {T4.value=" - "};
+   if (answ.charAt(4)=="1") {T5.value=" + "} else {T5.value=" - "};
+   if (answ.charAt(5)=="1") {T6.value=" + "} else {T6.value=" - "};
+   if (answ.charAt(6)=="1") {T7.value=" + "} else {T7.value=" - "};
+   if (answ.charAt(7)=="1") {T8.value=" + "} else {T8.value=" - "};
+   if (answ.charAt(8)=="1") {T9.value=" + "} else {T9.value=" - "};
+   if (answ.charAt(9)=="1") {T10.value=" + "} else {T10.value=" - "};
+     }
+}
+function showhide(obj){
+    if(obj == 'none') return 'inline';
+    else return 'none';
+}
+// ]]>
+</script>
+
+&nbsp;&nbsp;&nbsp;<span style="color:#006699;text-decoration:underline;cursor:pointer;" onclick="document.getElementById('instruction').style.display = showhide(document.getElementById('instruction').style.display)">
+Инструкция</span>
+ <br/>
+<div id="instruction" style="display: none; width: 100%;">
+<ul>
+<li>Выберите один из вариантов в каждом из 10 вопросов;</li>
+<li>Нажмите на кнопку "Показать результат";</li>
+<li>Скрипт не покажет результат, пока Вы не ответите на все вопросы;</li>
+<li>Загляните в окно рядом с номером задания. Если ответ правильный, то там (+). Если Вы ошиблись, там (-).</li>
+<li>За каждый правильный ответ начисляется 1 балл;</li>
+<li>Оценки: менее 5 баллов - НЕУДОВЛЕТВОРИТЕЛЬНО, от 5 но менее 7.5 - УДОВЛЕТВОРИТЕЛЬНО, 7.5 и менее 10 - ХОРОШО, 10 - ОТЛИЧНО;</li>
+<li>Чтобы сбросить результат тестирования, нажать кнопку "Сбросить ответы";</li>
+</ul>
+</div>
+<form name="test"><ol>
+<li><INPUT type="text" size="1" value="" name="T1"/><b> Выберите правильно составленное предложение:</b><br/>
+<input type="radio" value="0" name="Q1"/> She is petting her cat now <br />
+<input type="radio" value="1" name="Q1"/> She is pets her cat now <br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T2"/><b> Как строится утвердительное предложение в Present Continuous?</b><br/>
+<input type="radio" value="0" name="Q2"/> I + am + Ving<br />
+<input type="radio" value="1" name="Q2"/> We, they + am + Ving<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T3"/><b> Как строится вопросительное предложение?</b><br/>
+<input type="radio" value="0" name="Q3"/> Is + He, she, it + Ving?<br />
+<input type="radio" value="1" name="Q3"/> Is + He, she, it + V?<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T4"/><b> Как строится отрицательное предложение?</b><br/>
+<input type="radio" value="0" name="Q4"/> We, they + are + not + Ving<br />
+<input type="radio" value="1" name="Q4"/> We, they + am + not + Ving<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T5"/><b> Выберите правильно составленное предложение:</b><br/>
+<input type="radio" value="0" name="Q5"/> Listen! The music is plays<br />
+<input type="radio" value="1" name="Q5"/> Listen! The music is playing<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T6"/><b> Выберите правильно составленное предложение:</b><br/>
+<input type="radio" value="0" name="Q6"/> David is buying a new phone tomorrow<br />
+<input type="radio" value="1" name="Q6"/> David is will buy a new phone tomorrow<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T7"/><b> Выберите правильно составленное предложение:</b><br/>
+<input type="radio" value="0" name="Q7"/> We will flying to India next week<br />
+<input type="radio" value="1" name="Q7"/> We are flying to India next week<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T8"/><b> Выберите правильно составленное предложение:</b><br/>
+<input type="radio" value="0" name="Q8"/> What are you speaking about?<br />
+<input type="radio" value="1" name="Q8"/> What is you speaking about?<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T9"/><b> Выберите правильно составленное предложение:</b><br/>
+<input type="radio" value="0" name="Q9"/> I am watching TV now<br />
+<input type="radio" value="1" name="Q9"/> I am watch TV now<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T10"/><b> Выберите правильно составленное предложение:</b><br/>
+<input type="radio" value="0" name="Q10"/> He is swimming now<br />
+<input type="radio" value="1" name="Q10"/> He am swimming now<br />
+<br/></li></ol>      
+<CENTER>
+<P><TEXTAREA name="s1" rows="4" cols="70" readonly> </TEXTAREA> </P>
+<INPUT onclick="check_me()" type="button" value="Показать результат"/>&nbsp;&nbsp;&nbsp;&nbsp; 
+<INPUT type="reset" value="Сбросить ответы"/> 
+</CENTER>        
+</form> 
+<!-- Test created by service http://test.fromgomel.com -->
+
+
+        
+        
+        </div>  
+            
+              
+
+    </div>
+</section>
+<!-- /INTRO -->
+
+
+
+    
+ <!-- Footer -->
+<!-- Footer -->
+ <!--#include virtual="../includes/footer.html" -->
+
+</body>
+
+</html>

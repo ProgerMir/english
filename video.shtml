@@ -1,0 +1,193 @@
+                   <!-- Header -->
+ <!--#include virtual="includes/header.html" -->
+    <title>Видео</title>
+
+</head>
+
+<body>
+
+    <!-- Menu -->
+ <!--#include virtual="includes/menu.html" -->
+
+
+<section class="video">
+    <div class="container">
+        
+        <div class="video__content">
+        <h2 class="video__subtitle">
+            Видео
+        </h2>
+
+<h3 class="video__suptitle">Времена английского глагола</h3>
+<!-- <h4 class="video__suptitle-sm">Настоящее время</h4> -->
+
+        <div class="youtube"> <!-- youtube articles -->
+            <div class="youtube__col"><!-- youtube__col -->
+                <div class="youtube__item"><!-- youtube__item -->
+                    
+                    <div class="youtube__header">
+                        <!-- <time class="youtube__date">День<br>Месяц</time> -->
+                       <a href="videos/video-present-simple.shtml">
+                        <img class="youtube__photo" src="images/video-present-simple.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="youtube__content">
+                       <h4 class="youtube__title"><a href="videos/video-present-simple.shtml">Время Present Simple</a></h4>
+                        <div class="youtube__cat">Видео</div>
+                        <!--<div class="youtube__text">
+                            <p>  </p>
+                        </div>-->
+                    </div>             
+                    
+                    <a href="videos/video-present-simple.shtml" class="btn btn--sm">Смотреть</a>
+
+                </div><!-- /youtube__item -->
+
+
+
+            </div><!-- /youtube__col -->
+
+            <div class="youtube__col">
+                <div class="youtube__item"><!-- youtube__item -->
+                    
+                    <div class="youtube__header">
+                        <!-- <time class="youtube__date">День<br>Месяц</time> -->
+                       <a href="videos/video-present-perfect.shtml">
+                        <img class="youtube__photo" src="images/video-present-perfect.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="youtube__content">
+                       <h4 class="youtube__title"><a href="videos/video-present-perfect.shtml">Время Present Perfect</a></h4>
+                        <div class="youtube__cat">Видео</div>
+                        <!--<div class="youtube__text">
+                            <p>  </p>
+                        </div>-->
+                    </div>             
+                    
+                    <a href="videos/video-present-perfect.shtml" class="btn btn--sm">Смотреть</a>
+
+                </div><!-- /youtube__item -->
+            </div>
+            <div class="youtube__col">
+                <div class="youtube__item"><!-- youtube__item -->
+                    
+                    <div class="youtube__header">
+                        <!-- <time class="youtube__date">День<br>Месяц</time> -->
+                       <a href="videos/video-do-does.shtml">
+                        <img class="youtube__photo" src="images/video-do-does.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="youtube__content">
+                       <h4 class="youtube__title"><a href="videos/video-do-does.shtml">Do или Does?</a></h4>
+                        <div class="youtube__cat">Видео</div>
+                       <!--<div class="youtube__text">
+                            <p>  </p>
+                        </div>-->
+                    </div>             
+                    
+                    <a href="videos/video-do-does.shtml" class="btn btn--sm">Смотреть</a>
+
+                </div><!-- /youtube__item -->
+            </div> <!-- /youtube__col -->
+
+
+
+            <div class="youtube__col"><!-- youtube__col -->
+                <div class="youtube__item"><!-- youtube__item -->
+                    
+                    <div class="youtube__header">
+                        <!-- <time class="youtube__date">День<br>Месяц</time> -->
+                       <a href="videos/video-future-simple.shtml">
+                        <img class="youtube__photo" src="images/video-future-simple.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="youtube__content">
+                       <h4 class="youtube__title"><a href="videos/video-future-simple.shtml">Время Future Simple</a></h4>
+                        <div class="youtube__cat">Видео</div>
+                        <!--<div class="youtube__text">
+                            <p>  </p>
+                        </div>-->
+                    </div>             
+                    
+                    <a href="videos/video-future-simple.shtml" class="btn btn--sm">Смотреть</a>
+
+                </div><!-- /youtube__item -->
+
+
+
+            </div><!-- /youtube__col -->
+
+
+            <div class="youtube__col"><!-- youtube__col -->
+                <div class="youtube__item"><!-- youtube__item -->
+                    
+                    <div class="youtube__header">
+                        <!-- <time class="youtube__date">День<br>Месяц</time> -->
+                       <a href="videos/video-future-continuous.shtml">
+                        <img class="youtube__photo" src="images/video-future-continuous.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="youtube__content">
+                       <h4 class="youtube__title"><a href="videos/video-future-continuous.shtml">Время Future Continuous</a></h4>
+                        <div class="youtube__cat">Видео</div>
+                        <!--<div class="youtube__text">
+                            <p>  </p>
+                        </div>-->
+                    </div>             
+                    
+                    <a href="videos/video-future-continuous.shtml" class="btn btn--sm">Смотреть</a>
+
+                </div><!-- /youtube__item -->
+
+
+
+            </div><!-- /youtube__col -->
+
+
+            <div class="youtube__col"><!-- youtube__col -->
+                <div class="youtube__item"><!-- youtube__item -->
+                    
+                    <div class="youtube__header">
+                        <!-- <time class="youtube__date">День<br>Месяц</time> -->
+                       <a href="videos/video-future-perfect.shtml">
+                        <img class="youtube__photo" src="images/video-future-perfect.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="youtube__content">
+                       <h4 class="youtube__title"><a href="videos/video-future-perfect.shtml">Время Future Perfect</a></h4>
+                        <div class="youtube__cat">Видео</div>
+                        <!--<div class="youtube__text">
+                            <p>  </p>
+                        </div>-->
+                    </div>             
+                    
+                    <a href="videos/video-future-perfect.shtml" class="btn btn--sm">Смотреть</a>
+
+                </div><!-- /youtube__item -->
+
+
+
+            </div><!-- /youtube__col -->
+
+
+
+        </div><!-- / Youtube or articles -->
+
+        </div>    
+
+    </div>
+</section>
+
+ <!-- Footer -->
+<!-- Footer -->
+ <!--#include virtual="includes/footer.html" -->
+
+</body>
+
+</html>

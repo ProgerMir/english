@@ -1,0 +1,43 @@
+                   <!-- Header -->
+ <!--#include virtual="../includes/header.html" -->
+    <title>Видео о применении Do и Does в Present Simple</title>
+
+</head>
+
+<body>
+
+   <!-- Menu -->
+ <!--#include virtual="../includes/menu.html" -->
+
+
+            <!-- Stat -->
+
+<section class="vestext">
+    <div class="container">
+        <div class="vestext__content">
+        <h3 class="vestext__subtitle">Видео о Do и Does</h3>
+        <p class="vestext__text">
+            Предлагаем посмотреть ролик о правилах применения Do и Does во времени Present Simple.
+            </p>
+            <div class="youtube__page">
+                
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ps2I_XRVWq8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>  
+            
+              
+
+    </div>
+</section>
+<!-- /INTRO -->
+
+
+
+    
+ <!-- Footer -->
+<!-- Footer -->
+ <!--#include virtual="../includes/footer.html" -->
+
+</body>
+
+</html>

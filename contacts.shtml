@@ -1,0 +1,38 @@
+                   <!-- Header -->
+ <!--#include virtual="includes/header.html" -->
+    <title>Контакты</title>
+
+</head>
+
+<body>
+
+    <!-- Menu -->
+ <!--#include virtual="includes/menu.html" -->
+
+
+            <!-- Stat -->
+
+<section class="contacts">
+    <div class="container">
+        <div class="contacts__content">
+        <h3 class="contacts__subtitle">Как с нами связаться</h3>
+        <div class="contacts__text">Вы можете написать нам на e-mail:  <a href="mailto:improveenglish@mail.ru">improveenglish@mail.ru</a></p>
+        </div>  
+
+    </div>
+</section>
+<!-- /INTRO -->
+
+
+
+    
+
+
+ 
+                 <!-- Footer -->
+<!-- Footer -->
+ <!--#include virtual="includes/footer.html" -->
+
+</body>
+
+</html>
