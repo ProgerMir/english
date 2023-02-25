@@ -1,0 +1,90 @@
+//main: ../style.less
+
+.footer{
+    padding: 1.35rem 0;
+    background-color: @black;
+    margin-top: auto;
+}
+
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__credits {
+    display: flex;
+    align-items: center ;
+}
+
+.footer__copyright {
+    padding-right: .8rem;
+    margin-right: 1rem;
+    color: @white;
+    font-size: .9rem;
+    
+    @media @menufoot{
+        border-right: 3px solid fade(@grey, 35%);
+    }
+
+}
+
+.footer__social{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    a{
+        text-decoration: none;
+        margin-right: 1.2rem;
+    }
+
+}
+
+.footer__nav{
+    font-size: .9rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    @media @menufootnetxline{
+        justify-content: left;
+    }
+
+}
+
+.footer__nav-link{
+    color: #BBBBCC;
+    text-decoration: none;
+    
+    &:hover{
+        text-decoration: underline;
+    }
+
+    &--btn{
+        border-radius: 20px;
+        border: 1px solid @grey;
+        padding: .3rem .3rem;
+        line-height: 1.1;
+
+        &:hover{
+            text-decoration: none;
+            background-color: #bbbbcc;
+            border-color: #bbbbcc;
+            color: @black;
+        }
+
+    }
+
+    &+&{
+        margin-left: 1rem;
+    }
+
+    @media @menufoot {
+        margin-bottom: .3rem;
+    }
+
+    @media @menufootnetxline {
+        margin-left: 1rem;
+    }
+
+}
