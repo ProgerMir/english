@@ -87,26 +87,18 @@
 
             <section class="contact__form">
                 <div class="contact__wrapper">
-                    <form action="#" name="messageForm" method="post">
-                        <!-- <form action="./send.php" name="messageForm" method="post"></form> -->
-                        <div class="form__inputs">
-                            
-                            <label for="contact__form-name"><p class="contact__form-name-text">Имя <span class="contact__form-asterisk">*</span></p></label>
-                            <input id="contact__form-name" type="text" name="username" placeholder="Введите имя" required>
-                            
-                            <label for="contact__form-id"><p class="contact__form-name-text">E-mail <span class="contact__form-asterisk">*</span></p></label>
-                            <input id="contact__form-id" type="email" name="email" placeholder="Введите e-mail" required>
-
-                            <label for="contact__form-message"><p class="contact__form-name-text">Ваше сообщение
-                            <span class="contact__form-asterisk">*</span>
-                            </p></label>
-                            <textarea name="text" id="contact__form-message" placeholder="Введите сообщение" required></textarea>
-                            <div class="contact__form-button">
-                                <input type="submit" value="Отправить">
-                            </div>
-
-                        </div>
-                    </form>
+                    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/meqwpknp" method="post">
+                        <fieldset id="fs-frm-inputs">
+                          <label for="full-name">*Ваше имя</label>
+                          <input type="text" name="name" id="full-name" placeholder="Введите ваше имя" required="">
+                          <label for="email-address">*E-mail</label>
+                          <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                          <label for="message">*Сообщение</label>
+                          <textarea rows="5" name="message" id="message" placeholder="Введите сообщение" required=""></textarea>
+                          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                        </fieldset>
+                        <input type="submit" value="Отправить">
+                      </form>
                 </div>
             </section>
 
