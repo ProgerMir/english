@@ -80,6 +80,37 @@
         <div class="contacts__content">
         <h3 class="contacts__subtitle">Как с нами связаться</h3>
         <div class="contacts__text">Вы можете написать нам на e-mail:  <a href="mailto:improveenglish@mail.ru">improveenglish@mail.ru</a></p>
+            <p>Либо напишите сообщение в этой контактной форме.</p>
+            
+            
+            <!-- contact__form -->
+
+            <section class="contact__form">
+                <div class="contact__wrapper">
+                    <form action="./send.php" name="messageForm" method="post">
+                        <div class="form__inputs">
+                            
+                            <label for="contact__form-name"><p class="contact__form-name-text">Имя <span class="contact__form-asterisk">*</span></p></label>
+                            <input id="contact__form-name" type="text" name="username" placeholder="Введите имя" required>
+                            
+                            <label for="contact__form-id"><p class="contact__form-name-text">E-mail <span class="contact__form-asterisk">*</span></p></label>
+                            <input id="contact__form-id" type="email" name="email" placeholder="Введите e-mail" required>
+
+                            <label for="contact__form-message"><p class="contact__form-name-text">Ваше сообщение
+                            <span class="contact__form-asterisk">*</span>
+                            </p></label>
+                            <textarea name="text" id="contact__form-message" placeholder="Введите сообщение" required></textarea>
+                            <div class="contact__form-button">
+                                <input type="submit" value="Отправить">
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <!-- / contact__form -->
+
         </div>  
 
     </div>
@@ -170,7 +201,7 @@ alt=""/></a><script>(function(d,s){d.getElementById("licntEA3C").src=
                         </div> 
                         <!-- Page -->
                         
-                        <script src="../app.js"></script>
+                        <script src="./app.js"></script>
 
 </body>
 
