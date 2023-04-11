@@ -354,6 +354,12 @@ h6 {
   font-size: 1rem;
   color: #2b2a2c;
 }
+
+/* Contact Form */
+
+
+
+
 .about {
   margin: 2.4rem 0;
 }
@@ -886,9 +892,83 @@ h6 {
 .testcat__col {
   margin: 0 0.5rem 0.5rem 0;
 }
+
+/* Contact  */
+
 .contacts__content {
   text-align: center;
 }
+
+.contacts__subtitle{
+  margin-bottom: 15px;
+}
+
+.contact__form{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+
+}
+
+.contact__form-name-text{
+  font-weight: 700;
+  font-size: 14px;
+
+  margin-bottom: 5px;
+}
+
+.contact__wrapper{
+  max-width: 750px;
+  margin-top: 15px;
+  /* border: 1px solid green; */
+}
+
+.contact__wrapper input{
+  min-width: 380px;
+  min-height: 30px;
+
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.contact__wrapper textarea{
+  min-width: 380px;
+  min-height: 170px;
+
+  resize: vertical;
+}
+
+.contact__wrapper input,.contact__wrapper textarea{
+  border: 1px solid #999999;
+}
+
+.contact__form-asterisk{
+  color: red;
+}
+
+input[type=submit]{
+
+  max-width: 380px;
+  height: 30px;
+
+  background-color: #2b2a2c;
+  color: #d4d7de;
+
+  border-radius: 20px;
+
+  transition: background-color .1s linear, color .2s linear;
+
+  cursor: pointer;
+}
+
+input[type=submit]:hover{
+  background-color: #d4d7de;
+  color: #2b2a2c;
+}
+
+
+
 @media (max-width: 767px) {
   .contacts__content {
     margin-top: 9rem;
