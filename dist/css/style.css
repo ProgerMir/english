@@ -105,6 +105,10 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+.nav__link + .nav__link{
+  margin-left: 20px;
+}
 .nav__link:after {
   content: "";
   width: 0;
@@ -135,15 +139,14 @@ h6 {
     margin-left: 0;
     padding: 0.5rem 1rem;
   }
-}
-.nav__link + .nav__link {
-  margin-left: 2rem;
-}
-@media (max-width: 767px) {
+  .nav__link:first-child{
+      margin-left:20px;
+  }
   .intro {
     margin-top: 100px;
-  }
+  }  
 }
+
 .intro__inner {
   display: flex;
   flex-wrap: wrap;
@@ -986,6 +989,7 @@ input[type=submit]:hover{
                         width: 100%;
                         padding: 0;
                         margin: 0;
+                        appearance: none;
                         -webkit-appearance: none;
                         -moz-appearance: none;
                       }
