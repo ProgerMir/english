@@ -23,8 +23,6 @@ filter.on("click", function(event){
         });
     }
 
-    
-
 });
 
 
@@ -41,3 +39,25 @@ navToggle.on("click", function(event){
 
 });
 });
+
+
+// Icons for mobile-menu
+
+const burgerIcon = document.querySelector('.burger__icon')
+
+burgerIcon.addEventListener('click', function(){
+    const burgerIconActive = burgerIcon.classList.toggle('active')
+})
+
+// const burgerIconCross = burgerIcon.addEventListener('click', function() {
+//     const burgerIconActive = burgerIcon.classList.add('burger__icon--active')
+//     burgerIcon.setAttribute('src', './images/cross.svg');
+//     if(burgerIconActive){
+//         burgerIcon.setAttribute('src', './images/cross.svg')
+//     }else{
+//         burgerIcon.setAttribute('src', './images/burger.svg')
+//     }
+// } 
+
+// )
+
