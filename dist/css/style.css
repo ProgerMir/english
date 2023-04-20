@@ -41,6 +41,7 @@ h6 {
     left: 0;
     right: 0;
     z-index: 1000;
+    padding: 0;
     background-color: #fff;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   }
@@ -50,6 +51,19 @@ h6 {
   justify-content: space-between;
   align-items: center;
 }
+
+@media(max-width: 767px){
+  .header__inner{
+    flex-wrap: wrap;
+  }
+}
+
+@media(max-width: 260px){
+  .header__inner{
+    justify-content: center;
+  }
+}
+
 .logo {
   display: flex;
   justify-content: space-between;
@@ -59,6 +73,25 @@ h6 {
   width: 200px;
   height: 79px;
 }
+
+@media (max-width: 767px) {
+  .logo__image {
+    height: auto;
+  }
+  .logo__image img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 260px) {
+  .logo__image {
+    margin-left: 90px;
+  }
+  .logo__image img {
+    width: 50%;
+  }
+}
+
 .logo__image img {
   border-radius: 7%;
 }
