@@ -1,34 +1,3 @@
-$(function() {
-
-
-let filter = $("[data-filter]");
-filter.on("click", function(event){
-    event.preventDefault();
-
-    let cat = $(this).data('filter');
-    
-
-    if(cat == 'all') {
-        $("[data-cat]").removeClass('hide');
-    } else {
-        $("[data-cat]").each(function(){
-
-            let workCat = $(this).data('cat');
-    
-            if(workCat != cat){
-                $(this).addClass('hide');
-            } else $(this).removeClass('hide');
-    
-    
-        });
-    }
-
-});
-
-
-
-
-
 const navToggle = $("#navToggle");
 const nav = $("#nav");
 
@@ -38,7 +7,7 @@ navToggle.on("click", function(event){
     nav.toggleClass("show");
 
 });
-});
+// });
 
 
 // Icons for mobile-menu
@@ -49,15 +18,50 @@ burgerIcon.addEventListener('click', function(){
     const burgerIconActive = burgerIcon.classList.toggle('active')
 })
 
-// const burgerIconCross = burgerIcon.addEventListener('click', function() {
-//     const burgerIconActive = burgerIcon.classList.add('burger__icon--active')
-//     burgerIcon.setAttribute('src', './images/cross.svg');
-//     if(burgerIconActive){
-//         burgerIcon.setAttribute('src', './images/cross.svg')
-//     }else{
-//         burgerIcon.setAttribute('src', './images/burger.svg')
+
+// Tabs
+
+const choiceTab = document.querySelectorAll('[data-tab]')
+const choiceCat = document.querySelectorAll('[data-cat]')
+const choiceAll = document.querySelector('[data-all]')
+const checkchoiceAll = document.querySelector('[data-all]')
+
+
+
+choiceTab.forEach(function(item){
+    item.addEventListener('click', function(){
+        const idTab = this.dataset.tab
+        const idCat = document.querySelectorAll('#' + idTab);
+
+        
+        choiceCat.forEach(function(item){
+            item.classList.add('hide')
+        })
+
+        idCat.forEach(function(item){
+            item.classList.remove('hide')
+        })
+
+    })
+})
+
+choiceAll.addEventListener('click', function(){
+    choiceCat.forEach(function(item){
+        item.classList.remove('hide')
+    })
+})
+
+// if(choiceAll){
+//     console.log('button seen')
+// }else{
+//     console.log('button not seen')
+// }
+
+
+// try{
+//     checkchoiceAll.addEventListener('click', function(){
+//         console.log('result');
+//     });
+// } catch(error){
+//     console.log(error);
 //     }
-// } 
-
-// )
-
