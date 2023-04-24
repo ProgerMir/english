@@ -24,7 +24,6 @@ burgerIcon.addEventListener('click', function(){
 const choiceTab = document.querySelectorAll('[data-tab]')
 const choiceCat = document.querySelectorAll('[data-cat]')
 const choiceAll = document.querySelector('[data-all]')
-const checkchoiceAll = document.querySelector('[data-all]')
 
 
 
