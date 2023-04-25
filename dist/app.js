@@ -29,6 +29,7 @@ const choiceAll = document.querySelector('[data-all]')
 
 choiceTab.forEach(function(item){
     item.addEventListener('click', function(){
+        
         const idTab = this.dataset.tab
         const idCat = document.querySelectorAll('#' + idTab);
 
