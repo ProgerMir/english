@@ -24,7 +24,15 @@ burgerIcon.addEventListener('click', function(){
 const choiceTab = document.querySelectorAll('[data-tab]')
 const choiceCat = document.querySelectorAll('[data-cat]')
 const choiceAll = document.querySelector('[data-all]')
-
+const setListener = (element, type, handler) => {
+    if(!element){
+        return
+    }
+    element.addEventListener(type, handler)
+    return() => {
+        element.addEventListener(type, handler)
+    }
+}
 
 
 choiceTab.forEach(function(item){
@@ -41,14 +49,17 @@ choiceTab.forEach(function(item){
         idCat.forEach(function(item){
             item.classList.remove('hide')
         })
-
     })
 })
 
-choiceAll.addEventListener('click', function(){
+const removeEvent = setListener(choiceAll, 'click', function(){
     choiceCat.forEach(function(item){
         item.classList.remove('hide')
     })
+})
+
+setListener(choiceAll, 'click', ()=>{
+    removeEvent()
 })
 
 // if(choiceAll){
